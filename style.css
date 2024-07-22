@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+header {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+a {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    color: #989D9C;
+    margin-right: 30px;
+}
+
+.header-button {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    color: #ffffff;
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background-color: #665AE1;
+}
+
+section {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+h1 {
+    width: 513px;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    color: #515151;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: #848484;
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+
+.section-button {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    color: #000000;
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 800px) {
+    header {
+        display: none;
+    }
+
+    main {
+        position: relative;
+        left: 2%;
+    }
+
+    section {
+        position: relative;
+        left: 10%;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        display: inline;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        display: none;
+    }
+}
